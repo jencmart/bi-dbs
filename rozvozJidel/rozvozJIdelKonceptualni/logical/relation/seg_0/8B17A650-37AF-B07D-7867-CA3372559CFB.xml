@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_v_lokalite" directorySegmentName="seg_0" id="8B17A650-37AF-B07D-7867-CA3372559CFB">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:37:07 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<sourcePk>73929A5A-08AF-77F2-D8EB-6051E85C6B81</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>se_nachazi</nameOnSource>
+<nameOnTarget>patri_do</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5B88EA0-981B-D7F5-D4FB-16C24041C3DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>196B1CDE-85F7-45A2-440B-CD51B8520637</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

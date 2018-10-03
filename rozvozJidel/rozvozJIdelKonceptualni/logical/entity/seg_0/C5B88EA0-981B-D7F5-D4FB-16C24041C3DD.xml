@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5B88EA0-981B-D7F5-D4FB-16C24041C3DD" name="LOKALITA">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 21:50:47 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LOKALITA_ID" id="8476BDAD-4F06-E532-667E-AFBBD6B5CF46">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 21:52:24 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSC" id="C78CCB89-2DA5-12A2-AFD9-DEC0CE1C5C58">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-07 20:20:12 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZEV" id="3257F79F-54E8-ECCD-3852-530F666A0E43">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 21:53:23 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MESTO_ID" id="95708DC9-6757-8F83-F1B2-D4C80967E4E1">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:06:52 UTC</createdTime>
+<generatorID>36FFE8F7-752D-9DCC-EE0E-D891FEB89F51</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<referedAttribute>D32067BF-F753-5125-3C7D-07CA94A108B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSLICEK_ID" id="C0E5C59C-84E7-C297-0D72-424EB3D1DD75">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-04-12 09:44:37 UTC</createdTime>
+<generatorID>033D8CD5-A577-D172-90B0-DD96291159B2</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F4FC11A7-BA05-E1E9-DF81-432F15D1C5CE</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73929A5A-08AF-77F2-D8EB-6051E85C6B81" name="LOKALITA PK">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 21:52:47 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8476BDAD-4F06-E532-667E-AFBBD6B5CF46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

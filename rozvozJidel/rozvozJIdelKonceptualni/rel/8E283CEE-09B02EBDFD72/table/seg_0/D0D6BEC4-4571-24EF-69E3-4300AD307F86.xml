@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0D6BEC4-4571-24EF-69E3-4300AD307F86" name="POSLICEK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>F9900559-2A51-3933-2743-58E30103FA0D</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POSLICEK_ID" id="03C5A217-D8B9-D12B-89A1-DF8347C5723A">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>F4FC11A7-BA05-E1E9-DF81-432F15D1C5CE</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMENO" id="B5AE18B7-A07C-161C-7DEA-D04AD9E381EC">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>74DB5956-E1B4-6FC2-5712-87D5CDBD7F07</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIJMENI" id="5AD31E10-74B9-A66B-C467-A98759A22855">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>3FFBB47A-E155-AE66-49A0-193322E3DF8B</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RODNE_CISLO" id="97825181-AE6F-1AD3-81FC-2CB549C52250">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>AC329E84-7EEE-10BE-283D-149E6EBCE062</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_NASTUPU" id="CB954A08-8223-E18C-E02D-1C25BEECC572">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>EEE562A1-0A9F-3697-1597-005CD4C06BD5</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAT" id="4CFE2CED-7504-7103-FA21-7E715F616B4E">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>510122A3-651A-1A98-187F-88357CE2F1E3</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROSTREDEK_ID" id="2D9F06C5-539E-4451-FB05-FB88800CA190">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>863CC1E8-604B-345C-D204-748AD8526C57</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="082CF6B5-B750-23E6-BB04-EA35CC1F43D9" referredColumn="026D15F2-35F9-62B8-BDBA-6BDD5E985422"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF569753-E242-A2C7-9E4D-B2C76FB864EA" name="POSLICEK_PK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>4EB624CB-7480-2C3A-EAB4-901A6C6D991B</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C5A217-D8B9-D12B-89A1-DF8347C5723A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81E8C59B-5080-DCAD-968E-36A02C39E07E" name="POSLICEK_PROSTREDEK_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>12381A27-C1CC-DB24-2317-C63E3EF673EE</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D9F06C5-539E-4451-FB05-FB88800CA190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

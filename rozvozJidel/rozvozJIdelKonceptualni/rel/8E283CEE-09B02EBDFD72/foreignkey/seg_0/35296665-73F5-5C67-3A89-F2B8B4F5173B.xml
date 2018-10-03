@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35296665-73F5-5C67-3A89-F2B8B4F5173B" containerWithKeyObject="A712D0D2-DA16-87D8-2775-940DC7F59189" localFKIndex="EE8B0BE6-0C29-B8DC-09E1-7B0D63E59E3D" name="AUTOMOBIL_PROSTREDEK_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>B958E4B6-87FF-EBDA-C527-C338CA8FFA7A</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<referredTableLongName>PROSTREDEK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4E63AB4-7071-F350-D557-72DB7DF3905D</referredTableID>
+<keyObject>069A6001-E755-9C4D-9A4B-4D0C2D4DD37D</keyObject>
+<referredKeyID>069A6001-E755-9C4D-9A4B-4D0C2D4DD37D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PROSTREDEK_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

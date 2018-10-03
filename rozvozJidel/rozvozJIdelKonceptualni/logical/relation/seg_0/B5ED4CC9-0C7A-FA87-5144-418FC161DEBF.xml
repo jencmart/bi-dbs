@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_na_adrese" directorySegmentName="seg_0" id="B5ED4CC9-0C7A-FA87-5144-418FC161DEBF">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:42:58 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<sourcePk>20B59923-CB87-C843-6F05-B69290590E14</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>je_obyvana</nameOnSource>
+<nameOnTarget>bydli_na</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>196B1CDE-85F7-45A2-440B-CD51B8520637</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D92E4665-3CAD-42E0-F747-D8CFB8622A89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

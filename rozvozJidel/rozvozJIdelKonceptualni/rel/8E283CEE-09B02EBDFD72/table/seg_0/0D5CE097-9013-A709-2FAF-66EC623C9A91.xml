@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D5CE097-9013-A709-2FAF-66EC623C9A91" name="KOLO">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>BEE908CB-569E-C003-8362-4C9312C950F7</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VELIKOST_RAMU" id="87908DDA-790C-E0E6-FDDA-20F30B5A9F0D">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>879BCD8B-62A5-905F-54B5-CA36DF555A18</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROSTREDEK_ID" id="D99B416A-328B-98DC-3492-BDD74B0540F7">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>1880D70E-1A16-D95E-8DE2-957FDDC31AF1</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE626F3A-7292-A8B8-CFED-E507485FE787" referredColumn="026D15F2-35F9-62B8-BDBA-6BDD5E985422"/>
+</associations>
+</Column>
+<Column name="PRUMER_PNEUMATIK" id="AE8C5B96-0098-46E4-64A8-C788D40E13BE">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>B19FDD9F-CCCA-19D7-EC1A-4AF1C4FD074D</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="177EED43-F809-BEB2-19FF-238A4F4DFF90" name="KOLO_PK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>77EEF5D3-C8AD-E025-013D-30EA826B170F</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D99B416A-328B-98DC-3492-BDD74B0540F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F07E75E9-2C33-5A26-4A8C-70F508998308" name="KOLO_PROSTREDEK_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>14A71FB2-353A-9535-3CB0-9FA86880C1F7</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D99B416A-328B-98DC-3492-BDD74B0540F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

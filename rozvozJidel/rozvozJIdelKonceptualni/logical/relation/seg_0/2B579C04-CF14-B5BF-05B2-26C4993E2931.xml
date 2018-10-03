@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obsahuje" directorySegmentName="seg_0" id="2B579C04-CF14-B5BF-05B2-26C4993E2931">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 23:02:17 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<sourcePk>B72FD291-808C-AE49-8E90-F15FA254C5AA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D1C70640-C338-B4FD-0309-00414FCFD3EA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B888C818-B3E9-7E33-B7C1-F496932DF4E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

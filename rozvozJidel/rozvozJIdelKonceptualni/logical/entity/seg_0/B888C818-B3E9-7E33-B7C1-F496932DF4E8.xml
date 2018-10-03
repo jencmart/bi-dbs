@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B888C818-B3E9-7E33-B7C1-F496932DF4E8" name="OBSAHUJE">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:57:40 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="POLOZKA_ID" id="BE4DB193-ED22-F942-2CEF-70DA06BF3DB6">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 23:03:35 UTC</createdTime>
+<generatorID>2B579C04-CF14-B5BF-05B2-26C4993E2931</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<referedAttribute>26982913-CFD4-EF4E-CE80-A07FC0D8FCCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALERGEN_ID" id="FD718FE9-B8FE-D7F7-793E-5D8D5903C82A">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 23:04:52 UTC</createdTime>
+<generatorID>87A2CEE3-23FC-5966-03A9-40C23508F297</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<referedAttribute>7A1E5E34-26F7-CBA0-AA07-AFED05826476</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75F263D4-766B-6C79-A55C-3C3395009B34" name="ALERGEN PK">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 23:03:27 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE4DB193-ED22-F942-2CEF-70DA06BF3DB6</attributeRef>
+<attributeRef>FD718FE9-B8FE-D7F7-793E-5D8D5903C82A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

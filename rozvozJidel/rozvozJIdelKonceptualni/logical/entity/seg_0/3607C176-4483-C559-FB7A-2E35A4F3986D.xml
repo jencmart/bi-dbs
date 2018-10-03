@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3607C176-4483-C559-FB7A-2E35A4F3986D" name="OBJ_POLOZKA">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-07 20:30:21 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OBJ_POLOZKA_ID" id="6ED88031-7204-13B3-C390-6FA5F85134C2">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-07 20:30:39 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBJEDNAVKA_ID" id="B74AB88B-AF17-FCFC-5F34-D13B2991A84C">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-07 20:30:57 UTC</createdTime>
+<generatorID>06794140-5113-D656-09A6-64C9BBAF3175</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<referedAttribute>4CBE8DB5-CEF6-38EC-D779-F8B0A8139537</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POLOZKA_ID" id="73D74692-9731-E441-3FA5-34F859189D31">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-07 20:31:08 UTC</createdTime>
+<generatorID>7AB07E9A-CABF-BF5E-5729-B2292726EA61</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<referedAttribute>26982913-CFD4-EF4E-CE80-A07FC0D8FCCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MNOZSTVI" id="68432142-DEE9-D94D-988D-F20F046D2EA3">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:09:47 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E57AB353-97AA-CED3-70F0-8EA784B6926A" name="OBJEDNAVKA_POLOZKA PK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-07 20:30:40 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6ED88031-7204-13B3-C390-6FA5F85134C2</attributeRef>
+<attributeRef>B74AB88B-AF17-FCFC-5F34-D13B2991A84C</attributeRef>
+<attributeRef>73D74692-9731-E441-3FA5-34F859189D31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

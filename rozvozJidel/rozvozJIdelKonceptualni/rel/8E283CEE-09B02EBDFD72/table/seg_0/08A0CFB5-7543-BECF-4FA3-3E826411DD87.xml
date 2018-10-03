@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08A0CFB5-7543-BECF-4FA3-3E826411DD87" name="POLOZKA">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>D1C70640-C338-B4FD-0309-00414FCFD3EA</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POLOZKA_ID" id="36FA75D7-1809-24A8-6677-E7CC75131F8F">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>26982913-CFD4-EF4E-CE80-A07FC0D8FCCA</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZEV" id="8F9C4613-B512-7F8A-F2FF-9F1C31D6431A">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>A4AE5D09-7D81-864C-126E-F7A874BC2842</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENA" id="8D6732B9-7181-B5EC-B788-688E9F6F85D0">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>EE7075B7-E1C8-8FCC-163E-15A36E06B77B</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HMOTNOST" id="08994CA7-BD3C-3ECE-82DF-75D3845B49B3">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>228F23E3-C9AF-A1EF-E58A-2F5128415DF6</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0B94657-87FF-86F9-42B4-CEDCA8637734" name="POLOZKA_PK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>B72FD291-808C-AE49-8E90-F15FA254C5AA</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36FA75D7-1809-24A8-6677-E7CC75131F8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

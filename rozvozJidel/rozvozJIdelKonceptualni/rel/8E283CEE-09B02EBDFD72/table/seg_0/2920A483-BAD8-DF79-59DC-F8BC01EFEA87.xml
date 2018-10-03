@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2920A483-BAD8-DF79-59DC-F8BC01EFEA87" name="OBJ_POLOZKA">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>3607C176-4483-C559-FB7A-2E35A4F3986D</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OBJ_POLOZKA_ID" id="A6421D95-08AD-663E-6A55-99F7B49DB5C2">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>6ED88031-7204-13B3-C390-6FA5F85134C2</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJEDNAVKA_ID" id="48AAD19A-7A69-1BC5-E643-BB0782F28575">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>B74AB88B-AF17-FCFC-5F34-D13B2991A84C</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40CF0556-7E14-213D-3933-DC4258E77090" referredColumn="243F7F35-C2A4-4818-0CB1-FFA317A923FC"/>
+</associations>
+</Column>
+<Column name="POLOZKA_ID" id="763D225D-E198-39EC-F7E4-569BB948E6CA">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>73D74692-9731-E441-3FA5-34F859189D31</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30958DC8-8E7B-78A9-6393-15B1487C7733" referredColumn="36FA75D7-1809-24A8-6677-E7CC75131F8F"/>
+</associations>
+</Column>
+<Column name="MNOZSTVI" id="C922EE4C-2ED8-A208-76FB-9FD11473F0F4">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>68432142-DEE9-D94D-988D-F20F046D2EA3</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55DA64A2-E0F4-7E4D-EDDC-6B2BFE6763CE" name="OBJ_POLOZKA_PK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>E57AB353-97AA-CED3-70F0-8EA784B6926A</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6421D95-08AD-663E-6A55-99F7B49DB5C2"/>
+<colUsage columnID="48AAD19A-7A69-1BC5-E643-BB0782F28575"/>
+<colUsage columnID="763D225D-E198-39EC-F7E4-569BB948E6CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C51A0D9-85A4-D963-7C54-D73603ADD2E5" name="OBJ_POLOZKA_OBJEDNAVKA_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>06794140-5113-D656-09A6-64C9BBAF3175</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48AAD19A-7A69-1BC5-E643-BB0782F28575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81CAC033-1A2C-9880-F48E-1D89608A314D" name="OBJ_POLOZKA_POLOZKA_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>7AB07E9A-CABF-BF5E-5729-B2292726EA61</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="763D225D-E198-39EC-F7E4-569BB948E6CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

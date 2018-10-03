@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC0516C4-0380-1081-F0C7-5AD21DBE4213" name="LOKALITA">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>C5B88EA0-981B-D7F5-D4FB-16C24041C3DD</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOKALITA_ID" id="61BA81A2-2494-FFB0-FC1F-8A900377405A">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>8476BDAD-4F06-E532-667E-AFBBD6B5CF46</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSC" id="63B3EE88-7241-D626-146D-5EA0435B4902">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>C78CCB89-2DA5-12A2-AFD9-DEC0CE1C5C58</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZEV" id="E3124E2D-EEE4-0984-F4AC-F2EC0CFB2970">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>3257F79F-54E8-ECCD-3852-530F666A0E43</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MESTO_MESTO_ID" id="72B84DB3-35FC-CBF9-F634-C30BD0DC5587">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>95708DC9-6757-8F83-F1B2-D4C80967E4E1</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E948336-3CF5-288B-C07C-1E8D30F66D73" referredColumn="89E30984-BD98-880F-DA74-CC0D881B710C"/>
+</associations>
+</Column>
+<Column name="POSLICEK_ID" id="E289A53D-5BEF-BC1E-4C03-717593470D5F">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>C0E5C59C-84E7-C297-0D72-424EB3D1DD75</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB9EF3A0-0AA8-D82F-2884-29454307C989" referredColumn="03C5A217-D8B9-D12B-89A1-DF8347C5723A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33938316-ADE8-CAB9-30C6-C788A16F7D1A" name="LOKALITA_PK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>73929A5A-08AF-77F2-D8EB-6051E85C6B81</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BA81A2-2494-FFB0-FC1F-8A900377405A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="706FB4C9-92CB-D6AC-BD04-93B86916CFE0" name="LOKALITA_MESTO_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>36FFE8F7-752D-9DCC-EE0E-D891FEB89F51</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72B84DB3-35FC-CBF9-F634-C30BD0DC5587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A34B004B-E19F-1FB5-1CDD-BB83037254C0" name="LOKALITA_POSLICEK_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>033D8CD5-A577-D172-90B0-DD96291159B2</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E289A53D-5BEF-BC1E-4C03-717593470D5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

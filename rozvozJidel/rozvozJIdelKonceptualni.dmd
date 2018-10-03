@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="rozvozJIdelKonceptualni" id="F877F5DB-86E9-46AB-5698-D0148798C3EF" version="3.5">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 21:33:54 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F877F5DB-86E9-46AB-5698-D0148798C3EF</designId>
+</OSDM_Design>

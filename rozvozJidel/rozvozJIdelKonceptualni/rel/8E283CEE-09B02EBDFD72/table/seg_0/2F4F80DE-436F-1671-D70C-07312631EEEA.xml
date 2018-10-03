@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F4F80DE-436F-1671-D70C-07312631EEEA" name="OBSAHUJE">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>B888C818-B3E9-7E33-B7C1-F496932DF4E8</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POLOZKA_ID" id="D54C5C53-43CB-6C22-39AD-13EFA5605D46">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>BE4DB193-ED22-F942-2CEF-70DA06BF3DB6</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2856BC33-0455-D70B-4AD1-674741F7CEE5" referredColumn="36FA75D7-1809-24A8-6677-E7CC75131F8F"/>
+</associations>
+</Column>
+<Column name="ALERGEN_ID" id="28AD8216-6C07-CB5E-FB1A-059EFC44E3C2">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>FD718FE9-B8FE-D7F7-793E-5D8D5903C82A</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B5B4772-DB3D-C7AC-969F-8A3658ED71A7" referredColumn="3915221C-8B1D-F53C-F13B-51C4D1C8BED9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA1FF19C-E992-3E01-B2B0-7A83BF98A694" name="OBSAHUJE_PK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>75F263D4-766B-6C79-A55C-3C3395009B34</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D54C5C53-43CB-6C22-39AD-13EFA5605D46"/>
+<colUsage columnID="28AD8216-6C07-CB5E-FB1A-059EFC44E3C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE669F8E-79C0-DE85-F99E-D692F2A275A0" name="OBSAHUJE_POLOZKA_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>2B579C04-CF14-B5BF-05B2-26C4993E2931</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D54C5C53-43CB-6C22-39AD-13EFA5605D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DC2835A-C289-6E1A-8BB1-9EA13666F08B" name="OBSAHUJE_ALERGEN_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>87A2CEE3-23FC-5966-03A9-40C23508F297</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28AD8216-6C07-CB5E-FB1A-059EFC44E3C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

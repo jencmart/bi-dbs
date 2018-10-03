@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C7086FE-B6DD-5E9A-585E-225B4CA63060" containerWithKeyObject="33F5386D-E5B2-DB89-D5E7-A121D37DA512" localFKIndex="A10A35FD-53F8-51C0-CD22-9681B56AA68E" name="ADRESA_LOKALITA_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>8B17A650-37AF-B07D-7867-CA3372559CFB</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<referredTableLongName>LOKALITA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC0516C4-0380-1081-F0C7-5AD21DBE4213</referredTableID>
+<keyObject>33938316-ADE8-CAB9-30C6-C788A16F7D1A</keyObject>
+<referredKeyID>33938316-ADE8-CAB9-30C6-C788A16F7D1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOKALITA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

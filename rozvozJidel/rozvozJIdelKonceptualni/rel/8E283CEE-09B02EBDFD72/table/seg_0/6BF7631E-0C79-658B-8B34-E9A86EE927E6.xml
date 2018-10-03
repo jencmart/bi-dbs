@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BF7631E-0C79-658B-8B34-E9A86EE927E6" name="OBJEDNAVKA">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>BC660DA9-C180-FF5A-D98B-7E9E5F474A7F</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OBJEDNAVKA_ID" id="243F7F35-C2A4-4818-0CB1-FFA317A923FC">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>4CBE8DB5-CEF6-38EC-D779-F8B0A8139537</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_CAS_OBJEDNANI" id="21E0038D-6120-1328-616D-B3D6389730F4">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>11BD4791-6395-2D3E-2416-C21D861A8D4E</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSLICEK_ID" id="334FA477-4788-7360-53C2-D585677C39E1">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>BD355D30-704D-8557-1130-C783D9AACB11</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CF7E45E-0C34-EF61-9394-4E68D0C92720" referredColumn="03C5A217-D8B9-D12B-89A1-DF8347C5723A"/>
+</associations>
+</Column>
+<Column name="MANAGER_ID" id="E8BB0B5A-F279-1B92-3961-6230B1A610D0">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>B342E8BD-FF3A-0401-F544-2448D6BCFDBB</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC007717-C3A8-1391-0E54-A875A8301222" referredColumn="39847675-0180-7E6B-91CC-E9CB6A7A5E03"/>
+</associations>
+</Column>
+<Column name="ZAKAZNIK_ID" id="8F46ACC1-FB0C-7DB1-5104-463F3FE985CE">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>05BBC96B-8A76-71CF-A93F-E5B9FA98BB65</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83D23CB9-BF67-9B52-AB83-3F98E1F932F0" referredColumn="8FFF045A-CE21-05BA-0713-8E47250AD250"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04C6D681-AFCB-1250-0717-71BAEC6D9218" name="OBJEDNAVKA_PK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:17 UTC</createdTime>
+<generatorID>649CAA17-8CD6-C72C-DE5F-D93EDCD9A743</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="243F7F35-C2A4-4818-0CB1-FFA317A923FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5803D34F-6B03-03F4-D378-B80EE7279E3A" name="OBJEDNAVKA_ZAKAZNIK_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>F2E71AAB-3D70-F583-112B-4C2C3B3112CC</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F46ACC1-FB0C-7DB1-5104-463F3FE985CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50539802-F178-FDFF-F4B4-2B6275103F4D" name="OBJEDNAVKA_MANAGER_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>E9542876-D13E-4442-2E54-36B88695AF11</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8BB0B5A-F279-1B92-3961-6230B1A610D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="349B141D-828E-7616-EC05-B7A4F55F50E6" name="OBJEDNAVKA_POSLICEK_FK">
+<createdBy>marti</createdBy>
+<createdTime>2017-05-08 13:14:18 UTC</createdTime>
+<generatorID>4E7D9A8B-121E-8EBD-12F8-A6EF43DAE3F3</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="334FA477-4788-7360-53C2-D585677C39E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

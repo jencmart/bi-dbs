@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rozvazi_v" directorySegmentName="seg_0" id="033D8CD5-A577-D172-90B0-DD96291159B2">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:17:11 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<targetPk>4EB624CB-7480-2C3A-EAB4-901A6C6D991B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>je_pod_spravou</nameOnSource>
+<nameOnTarget>rozvazi_v</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C5B88EA0-981B-D7F5-D4FB-16C24041C3DD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F9900559-2A51-3933-2743-58E30103FA0D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

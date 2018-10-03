@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC660DA9-C180-FF5A-D98B-7E9E5F474A7F" name="OBJEDNAVKA">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:43:45 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OBJEDNAVKA_ID" id="4CBE8DB5-CEF6-38EC-D779-F8B0A8139537">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:43:54 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATUM_CAS_OBJEDNANI" id="11BD4791-6395-2D3E-2416-C21D861A8D4E">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:44:01 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSLICEK_ID" id="BD355D30-704D-8557-1130-C783D9AACB11">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:55:50 UTC</createdTime>
+<generatorID>4E7D9A8B-121E-8EBD-12F8-A6EF43DAE3F3</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<referedAttribute>F4FC11A7-BA05-E1E9-DF81-432F15D1C5CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MANAGER_ID" id="B342E8BD-FF3A-0401-F544-2448D6BCFDBB">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-04-11 20:37:55 UTC</createdTime>
+<generatorID>E9542876-D13E-4442-2E54-36B88695AF11</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<referedAttribute>F94E354D-7FBD-E077-5694-7102FA0FF81A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZAKAZNIK_ID" id="05BBC96B-8A76-71CF-A93F-E5B9FA98BB65">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-04-11 21:12:29 UTC</createdTime>
+<generatorID>F2E71AAB-3D70-F583-112B-4C2C3B3112CC</generatorID>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<referedAttribute>7A833DF0-DCE8-7FB2-D180-5DEFB315A05C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="649CAA17-8CD6-C72C-DE5F-D93EDCD9A743" name="OBJEDNAVKA PK">
+<createdBy>jencmart</createdBy>
+<createdTime>2017-03-01 22:44:49 UTC</createdTime>
+<ownerDesignName>rozvozJIdelKonceptualni</ownerDesignName>
+<engineerTo>
+<item key="8E283CEE-4D6C-6372-395A-09B02EBDFD72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4CBE8DB5-CEF6-38EC-D779-F8B0A8139537</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
